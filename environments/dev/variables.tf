@@ -59,11 +59,11 @@ variable "db_instance_class" {
 variable "custom_ami_id" {
   description = "AMI of the app tier"
   type        = string
-  default     = "ami-01bff3d0245d54b37"
+  default     = "ami-05fa46471b02db0ce"
 }
 
 variable "custom_ami_id_web" {
   description = "AMI of the app tier"
   type        = string
-  default     = "ami-0564f16a03441ef53"
+  default     = "ami-05fa46471b02db0ce"
 }
