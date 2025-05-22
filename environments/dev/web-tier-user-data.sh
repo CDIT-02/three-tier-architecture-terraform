@@ -10,8 +10,8 @@ nvm install 16
 nvm use 16
 
 # Copy source code and configuration from S3
-aws s3 cp s3://dev-3-tier-source-code-bucket/web-tier/ ~/web-tier --recursive
-aws s3 cp s3://dev-3-tier-source-code-bucket/nginx.conf ~
+aws s3 cp s3://dev-3-tier-source-code-bucket-may2025/web-tier/ ~/web-tier --recursive
+aws s3 cp s3://dev-3-tier-source-code-bucket-may2025/nginx.conf ~
 
 # Navigate to the web-tier directory and build the application
 cd ~/web-tier

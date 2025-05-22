@@ -11,7 +11,7 @@ su - ec2-user << 'EOF'
 mkdir -p ~/app-tier
 
 # Copy source code from S3
-aws s3 cp s3://dev-3-tier-source-code-bucket/app-tier ~/app-tier --recursive
+aws s3 cp s3://dev-3-tier-source-code-bucket-may2025/app-tier ~/app-tier --recursive
 
 # Install NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
